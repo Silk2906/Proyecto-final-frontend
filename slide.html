@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" 
+    integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+    integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>  
+
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                touch: true, /*para que funcione el slide on celulares*/
+                pauseOnAction: false, /*para que la imagen no se quede pegada cuando le das click a uno de los circulos*/
+                pauseOnHover: false,
+                slideshowSpeed: 3000, /*segundos que dura la imagen*/
+            });
+        });
+    </script>
+
+</head>
+
+
+
+
+<body>
+    <nav style="margin-bottom: 0px;background:black;" class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1"
+                    aria.expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class=" icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: white"> EJERCICIO 6 </a>
+            </div>
+
+            <div class="collapsed navbar.collapsed" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
+
+
+                    <li><a style="color: white" href="#">About</a></li>
+                    <li><a style="color: white" href="#">Contact</a></li>
+                    <li><a style="color: white" href="#">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#" style="color:white" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          Dropdown
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                            style="color: white">
+                            Portafolio<span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                            style="color: white">
+                            Blog<span class="caret"></span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"
+                            style="color: white">
+                            Other Pages<span class="caret"></span></a>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+    </nav>
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="https://images.unsplash.com/photo-1486432155089-343c871b640f?ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+            <li>
+                <img src="https://images.unsplash.com/photo-1505937059382-aab581fd88c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+            <li>
+                <img src="https://images.unsplash.com/photo-1472820280944-e2ff89c338d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+        </ul>
+    </div>
+
+    <h1 class="text-center">Welcome to moder business</h1>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel.heading"> ESTO ES UN TITULO </div>
+                <div class="panel-body"> ESTO ES CONTENIDO</div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+</body>
+
+
+</html>

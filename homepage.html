@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" 
+        integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+        <link rel="stylesheet" href="flexslider.css" type="text/css">
+        
+</head>
+<body>
+        <nav style="margin-bottom: 0px;background:black;" class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1"
+                            aria.expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class=" icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#" style="color: rgb(104, 117, 240)"> TriHora </a>
+                    </div>
+        
+                    <div class="collapsed navbar.collapsed" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right ">
+        
+        
+                            <li><a style="color: white" href="#">Novedades</a></li>
+                            <li><a style="color: white" href="#">Agendar una hora</a></li>
+                            <li><a style="color: white" href="#">Contáctanos</a></li>
+                            <li class="dropdown">
+                                <a href="#" style="color:white" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  Categorías
+                                  <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                  <li><a href="#">Celulares</a></li>
+                                  <li><a href="#">Audífonos</a></li>
+                                  <li><a href="#">Carcasas</a></li>
+                                  <li role="separator" class="divider"></li>
+                                  <li><a href="#">Buscar por nombre</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </ul>
+                    </div>
+            </nav>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#bs-example-navbar-collapse-1"
+                    aria.expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class=" icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color: white"> EJERCICIO 6 </a>
+            </div>
+
+            <div class="collapsed navbar.collapsed" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
+
+
+                    <li><a style="color: white" href="#">About</a></li>
+                    <li><a style="color: white" href="#">Contact</a></li>
+                    <li><a style="color: white" href="#">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#" style="color:white" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                          Dropdown
+                          <span class="caret"></span>
+                        </a>
+                       
+                    </li>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+    </nav>
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="https://cdn1.thehunt.com/app/public/system/note_images/7651433/note_view/e56222d2bc62360e7836d2e77a2e05b7.jpg" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+            <li>
+                <img src="https://www.dhresource.com/0x0s/f2-albu-g6-M01-FC-40-rBVaSFvgUvGAO8tLAAarYZY6HJI166.jpg/caja-del-tel-fono-del-silic-n-suave-del-dise.jpg" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+            <li>
+                <img src="https://cdn4.cnet.com/img/TKE97fL95IIT-lUe9wqnacQtoL0=/970x0/2015/11/25/abff5a40-9805-4e9b-b74b-3155b4a4bc29/celular-android-actualizacion.jpg" />
+                <seccion class="flex-caption">
+                </seccion>
+            </li>
+        </ul>
+    </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+        integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>  
+    
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    touch: true, /*para que funcione el slide on celulares*/
+                    pauseOnAction: false, /*para que la imagen no se quede pegada cuando le das click a uno de los circulos*/
+                    pauseOnHover: false,
+                    slideshowSpeed: 3000, /*segundos que dura la imagen*/
+                });
+            });
+        </script>
+</body>
+</html>
